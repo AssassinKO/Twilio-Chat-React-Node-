@@ -1,0 +1,35 @@
+.tooltip {
+	.arrow {
+		display: none;
+	}
+
+	.tooltip-inner {
+		background-color: rgba(black, .5);
+	}
+}
+
+.call {
+	text-align: center;
+
+	.modal-content {
+
+		.modal-body {
+			padding: 50px 0;
+		}
+	}
+
+	.action-button {
+		margin-top: 3rem;
+
+		.btn {
+			width: 70px;
+			height: 70px;
+			margin: 0 15px;
+
+			svg {
+				width: 28px;
+				height: 28px
+			}
+		}
+	}
+}
